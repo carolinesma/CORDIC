@@ -1,0 +1,5 @@
+"./src/cordic.obj"
+"./src/fix_point.obj"
+"./src/main.obj"
+"../lnkx.cmd"
+-lrts55x.lib
