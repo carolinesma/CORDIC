@@ -32,17 +32,17 @@ int main(void)
     }
 
     printf("***************************************\n");
-    printf("Polar para Cartesian\n");
+    printf("Polar to Cartesian\n");
     printf("theta / R / x / y\n");
     R = 1;
     for(i=0;i<TAM;i++)
     {
         pol2ret(theta[i],R,&rx,&ry,I);
-        printf("%f %d %f %f \n", theta, R, rx, ry);
+        printf("%f %d %f %f \n", theta[i], R, rx, ry);
     }
 
     printf("***************************************\n");
-    printf("Cartesian para Polar\n");
+    printf("Cartesian to Polar\n");
     printf("x / y / mag / phase\n");
     for(i=0;i<TAM;i++)
     {
